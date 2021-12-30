@@ -45,13 +45,24 @@ After cloning the project, you will need to compile it and install it in your sy
 
 If you need, you may find a good **Googletest** tutorial [here](https://google.github.io/googletest/primer.html), although it would be probably uncessary to access this documentation since the tests have already been coded for you. You just need to install the library and compile the project, to do this you need to:
 
-```
-$ git clone git@github.com:google/googletest.git (clone the Googletest repository on your computer)
-$ cd googletest (go to the cloned repository folder)
-$ cmake -S source -B build (asks cmake to create the build directory)
-$ cmake --build build (compile)
-$ cd build/ (go to the build directory)
-$ sudo make install (install Googletest)
+```bash
+# Clone the Googletest repository on your computer
+$ git clone git@github.com:google/googletest.git
+
+# Go to the cloned repository folder
+$ cd googletest
+
+# Asks cmake to create the build directory
+$ cmake -S source -B build
+
+# Compile
+$ cmake --build build
+
+# Go to cmake build directory
+$ cd build/
+
+# Install Googletest
+$ sudo make install
 ```
 
 The `CMakeLists.txt` automatically looks for the location of the **Googletest** libraries in your system. If you decide to install **Googletest** locally you will need to change the cmake configuration file to indicate where you've installed the **Googletest** library (path).
@@ -60,12 +71,12 @@ The `CMakeLists.txt` automatically looks for the location of the **Googletest** 
 
 From the project's root folder, run as usual (assuming `$` is the terminal prompt):
 
-```
+```bash
 $ ./build/run_tests
 ```
 and for the driver, type in
 
-```
+```bash
 $ ./build/driver_hash
 ```
 
