@@ -2,8 +2,8 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Aluno: Gregorio Pinheiro Cunha (gregopc@hotmail.com)
-- Aluno: João Guilherme Lopes Alves da Costa (joguicosta@hotmail.com)
+- Aluno: Gregorio Pinheiro Cunha (gregopc@hotmail.com) <a href="https://github.com/gregopc">@gregopc</a>
+- Aluno: João Guilherme Lopes Alves da Costa (joguicosta@hotmail.com) <a href="https://github.com/joaoguilac">@joaoguilac</a>
 - Turma: DIM0119 - ESTRUTURA DE DADOS BÁSICAS I - T01 (2021.1)
 - Professor: Selan Rodrigues dos Santos
 
